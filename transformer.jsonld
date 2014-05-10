@@ -1,0 +1,8 @@
+{
+ "@context": "http://transformer.io/context/transformer.jsonld",
+ "type": "conversion",
+ "input": "buffer",
+ "output": "base64",
+ "id": "buffer-to-base64",
+ "description": "buffer to base64"
+}
