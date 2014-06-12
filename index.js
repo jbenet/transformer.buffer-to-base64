@@ -1,9 +1,9 @@
-var transformer = require('dat-transformer');
-var tBuffer = transformer('buffer');
-var tBase64 = transformer('base64');
+var Conversion = require('transformer-conversion');
+var tBuffer = require('transformer.buffer');
+var tBase64 = require('transformer.base64');
 // require any other modules you may need here.
 
-module.exports = transformer.Conversion(tBuffer, tBase64, convert);
+module.exports = Conversion(tBuffer, tBase64, convert);
 
 // this is a synchronous conversion.
 function convert(buffer) {

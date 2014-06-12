@@ -1,6 +1,6 @@
 {
   "name": "transformer.buffer-to-base64",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "transformer conversion: buffer to base64",
   "main": "index.js",
   "transformer": "transformer.jsonld",
@@ -12,9 +12,10 @@
     "transformer-conversion"
   ],
   "dependencies": {
+    "transformer-conversion": "^0.1.2",
+    "transformer-test": "^0.1.0",
     "transformer.base64": "0.0.1",
-    "transformer.buffer": "0.0.1",
-    "dat-transformer": "~0.1.5"
+    "transformer.buffer": "0.0.1"
   },
   "devDependencies": {},
   "repository": {
